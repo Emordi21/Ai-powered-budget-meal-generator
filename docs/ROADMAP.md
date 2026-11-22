@@ -5,8 +5,12 @@ Tick items off as they are completed. Dates are targets, not promises.
 ## Phase 0: Foundations
 - [x] Project idea and scope documented
 - [x] Repo set up with README, PRD, decision log and roadmap
-- [ ] Research UK competitors
-- [ ] Research UK supermarket price data options (and the legal position)
+- [x] First-pass research on NeatEat (`COMPETITOR_NOTES.md`)
+- [x] First-pass research on UK competitors and price data (`PRICE_DATA_RESEARCH.md`)
+- [x] Draft price table design (`PRICE_TABLE_DESIGN.md`)
+- [ ] Try the closest UK competitors hands-on (Mealia, Meal2Shop, Tesco's assistant)
+- [ ] Check ONS licence, Open Prices UK coverage and retailer feed options at the source
+- [ ] Pick the first store (Aldi or Tesco)
 - [ ] Decide the open questions in the PRD
 - [ ] Confirm the tech stack
 

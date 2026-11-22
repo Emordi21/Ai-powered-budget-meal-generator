@@ -10,7 +10,7 @@ An AI app that understands **both what the user has and what they need**, then c
 
 **Market:** the UK (prices in GBP). Supermarkets under consideration: Tesco, Sainsbury's, Asda, Morrisons, Aldi, Lidl.
 
-**Reference product:** NeatEat (a US competitor) is used for feature and layout inspiration only. We do not copy its branding or wording. The claim that there is no equivalent UK product is **unverified** and needs a competitor search.
+**Reference product:** NeatEat (a US competitor) is used for feature and layout inspiration only. We do not copy its branding or wording. An earlier assumption that there is no equivalent UK product is **not supported**: research found UK budget meal-planning apps and supermarket tools (see `PRICE_DATA_RESEARCH.md`). Our differentiator is generating recipes from what the user already has, with hard allergy rules and honest price estimates.
 
 **How we differ from a recipe library:** a library serves fixed recipes. This app generates new ones on demand, fitted to this week's budget and what is already in the kitchen.
 
@@ -71,6 +71,8 @@ Budget features depend on accurate prices, and this is the biggest risk.
 - Scraping their sites may break their terms and breaks whenever the sites change.
 - Prices vary by branch and change weekly; Aldi and Lidl have limited online catalogues.
 - The AI cannot estimate costs reliably without real price data.
+
+**Research and design:** see `PRICE_DATA_RESEARCH.md` and `PRICE_TABLE_DESIGN.md`. No free official per-store UK price feed was found, so the proposal is a small reference basket in our own database.
 
 **Options:** start with one or two stores and a weekly price table; let users enter their own prices or use store-average bands, always labelled as estimates; keep prices in their own database table so the source can be swapped later.
 

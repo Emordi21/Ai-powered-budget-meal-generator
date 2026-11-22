@@ -6,6 +6,26 @@ A short record of choices made, and why. Add a new entry at the top whenever som
 
 ---
 
+## 2026-11-22: Price data approach: reference basket in our own database
+**Status:** Proposed
+
+**Decision:** Keep a small basket (about 150-300 items) of prices per store in our own database, updated weekly by hand, with a multiplier for extra stores and user price overrides. Every price carries a source and a date, and costs are labelled as estimates. We do not scrape supermarket sites or use AI agents to browse them.
+
+**Why:** No free official per-store UK price feed was found. Reading prices from our own table is fast and free, and the design lets us swap in licensed data later. Scraping is fragile and likely conflicts with store terms.
+
+**Details:** `PRICE_DATA_RESEARCH.md`, `PRICE_TABLE_DESIGN.md`.
+
+---
+
+## 2026-11-22: Correction: UK competitors do exist
+**Status:** Accepted
+
+**Decision:** Drop the claim that there is no UK competitor. Position on recipe generation from what the user has, hard allergy rules and honest estimates.
+
+**Why:** Search found UK apps and supermarket tools that combine meal planning, budgets and supermarket prices (for example Mealia, Meal2Shop, and Tesco's AI meal planner). We haven't tested them yet.
+
+---
+
 ## 2026-11-22: Where AI agents are used
 **Status:** Proposed
 

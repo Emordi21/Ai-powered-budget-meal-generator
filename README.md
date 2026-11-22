@@ -24,6 +24,9 @@ See [docs/PRD.md](docs/PRD.md) for the full list and build phases.
 | [docs/PRD.md](docs/PRD.md) | Product Requirements Document: what we are building and why |
 | [docs/DECISIONS.md](docs/DECISIONS.md) | A log of choices made, with the reasons |
 | [docs/ROADMAP.md](docs/ROADMAP.md) | Build phases and a progress checklist |
+| [docs/COMPETITOR_NOTES.md](docs/COMPETITOR_NOTES.md) | Notes on NeatEat, a US competitor |
+| [docs/PRICE_DATA_RESEARCH.md](docs/PRICE_DATA_RESEARCH.md) | Where UK grocery prices could come from, and UK competitors found |
+| [docs/PRICE_TABLE_DESIGN.md](docs/PRICE_TABLE_DESIGN.md) | Proposed database design for prices and budgets |
 
 ## Proposed tech stack
 
