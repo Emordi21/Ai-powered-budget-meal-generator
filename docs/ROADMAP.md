@@ -10,7 +10,9 @@ Tick items off as they are completed. Dates are targets, not promises.
 - [x] Draft price table design (`PRICE_TABLE_DESIGN.md`)
 - [ ] Try the closest UK competitors hands-on (Mealia, Meal2Shop, Tesco's assistant)
 - [ ] Check ONS licence, Open Prices UK coverage and retailer feed options at the source
+- [x] Create Supabase project and price tables (empty)
 - [ ] Pick the first store (Aldi or Tesco)
+- [ ] Load a starter basket (about 30 items) for the first store
 - [ ] Decide the open questions in the PRD
 - [ ] Confirm the tech stack
 

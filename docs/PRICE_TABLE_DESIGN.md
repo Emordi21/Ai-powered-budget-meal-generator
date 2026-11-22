@@ -1,6 +1,6 @@
 # Price Table Design (draft)
 
-*Status: proposed design, not built. It describes the database structure in plain English first, then as SQL for Supabase (Postgres).*
+*Status: the tables are created in the Supabase project `budget-meal-planner` (free plan, eu-west-1), empty. The real SQL is `supabase/migrations/20261122000000_price_tables.sql`, which adds Row Level Security on every table and a few safety improvements over the draft below. The design is still open to change before we load data.*
 
 > **Database table:** like a spreadsheet tab. Each row is one record, each column is one detail about it.
 

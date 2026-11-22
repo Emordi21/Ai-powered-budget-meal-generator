@@ -6,6 +6,15 @@ A short record of choices made, and why. Add a new entry at the top whenever som
 
 ---
 
+## 2026-11-22: Supabase project created
+**Status:** Accepted
+
+**Decision:** A separate Supabase project, `budget-meal-planner`, on the free plan in eu-west-1 (Ireland), holds this app's data. The price tables are applied from `supabase/migrations/`. Existing projects (Trip Craft, CRM_1st) are untouched.
+
+**Why:** Keeps this app's data separate from other projects. Security check after the migration found no issues. Performance check showed only minor notes (a few unindexed foreign keys on tiny tables), which we'll revisit once there is data.
+
+---
+
 ## 2026-11-22: Price data approach: reference basket in our own database
 **Status:** Proposed
 
